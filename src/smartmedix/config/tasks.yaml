@@ -1,0 +1,27 @@
+fitness_task:
+  description: >
+    Analyze the fitness requirements for a {age} year old {gender}.
+    Provide recommendations for exercise routines and fitness strategies.
+  expected_output: >
+    A exercise routine and fitness strategies.
+
+nutrition_task:
+  description: >
+    Assess nutritional requirements for a {age} year old {gender}.
+    Provide recommendations based on specific nutritional needs.
+    Do not prescribe a medicine.
+  expected_output: >
+    A fully fledge diet plan
+
+healthanalysis_task:
+  description: >
+    Evaluate overall health considerations for a {age} year old {gender}.
+    Provide recommendations for a healthy lifestyle.
+  expected_output: >
+    Recommendations for a healthy lifestyle.
+
+disease_task:
+  description: >
+    Provide recommendations for managing {disease}.
+  expected_output: >
+    A list of precautions to take to stop the {disease} spreading or cure it and a report.md
